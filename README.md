@@ -1,3 +1,33 @@
+<!-- ACREADER_PUBLIC_HEADER_V1 -->
+# ACreader
+
+**A Huawei MatePad Paper focused KOReader fork/mod with native Kindle-style full refresh support.**
+
+ACreader is a KOReader fork/mod tailored for the **Huawei MatePad Paper**. It integrates Huawei EPD refresh-mode switching into KOReader's Android frame-post path, allowing normal page turns to use partial refresh while triggering a native full refresh at a configured page interval.
+
+### Huawei MatePad Paper support
+
+- Tested on **Huawei MatePad Paper HMW-W09**.
+- Native Huawei EPD full refresh has been verified on real hardware.
+- Configurable page-count cadence is supported; for example, a full refresh every 6 pages.
+- No root access is required for the refresh integration.
+- Other Huawei devices, firmware versions, or e-ink devices are not guaranteed to be compatible.
+
+### Upstream and license
+
+ACreader is based on [KOReader](https://github.com/koreader/koreader).
+
+The original KOReader copyright notices, license files, and project history are retained. KOReader is distributed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**; see [`COPYING`](COPYING).
+
+The ACreader-specific Huawei Android dependencies used by this branch are published at:
+
+- [`c0n2/koreader-base`](https://github.com/c0n2/koreader-base)
+- [`c0n2/android-luajit-launcher`](https://github.com/c0n2/android-luajit-launcher)
+
+---
+
+## Upstream KOReader README
+
 [![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)
 
 #### KOReader is a document viewer primarily aimed at e-ink readers.
